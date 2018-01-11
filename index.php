@@ -49,7 +49,7 @@ class PDOMysql implements DatabaseConnectionInterface{
 }
 
 $r = new PDOMysql;
-$r->connect("localhost", "php-junior", "php-junior", "php-junior");//db
+$r->connect("db", "php-junior", "php-junior", "php-junior");//db
 $stmt = $r->getConnection();
 
 /*$arr = $stmt->query('SELECT
